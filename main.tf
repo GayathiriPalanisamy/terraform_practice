@@ -1,5 +1,5 @@
 resource "local_file" "pet"{
-	filename = "pets.txt"
-	content = "We love pets"
+	filename = var.filename
+	content = var.content
 	file_permission ="0700"	
 }

@@ -17,6 +17,11 @@ local.tf file holds the code to create a file with the given content
 2. `terraform plan`  to review any changes that are required for your infrastructure.
 3. `terraform apply` executes the action proposed in the plan
 
+##Multiple Providers
+
+1. local files
+2. aws instances
+3. 
 
 
 
